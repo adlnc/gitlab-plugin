@@ -4,10 +4,15 @@ package com.dabsquared.gitlabjenkins.gitlab.api.model;
  * @author Robin Müller
  */
 public enum BuildState {
-    pending,
-    running,
     canceled,
-    success,
+    created,
     failed,
-    skipped
+    manual,
+    pending,
+    preparing,
+    running,
+    scheduled,
+    skipped,
+    success,
+    waiting_for_resource
 }
